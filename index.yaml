@@ -1,0 +1,81 @@
+apiVersion: v1
+entries:
+  k8ssandra-operator:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:32.530534315Z"
+    dependencies:
+    - name: k8ssandra-operator
+      repository: https://helm.k8ssandra.io/stable
+      version: 1.15.0
+    description: Wrapper chart for k8ssandra-operator
+    digest: aaf2591e77ee9f82db1829c472dc6cb338c3562666963dd559448146d55f4c81
+    name: k8ssandra-operator
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/k8ssandra-operator-1.15.0/k8ssandra-operator-1.15.0.tgz
+    version: 1.15.0
+  keycloakx:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:32.657305401Z"
+    dependencies:
+    - name: keycloakx
+      repository: https://codecentric.github.io/helm-charts
+      version: 2.3.0
+    description: Wrapper chart for keycloakx
+    digest: 9f388b87f64b2a7d8c7beb95319234887de781a78632ff4ef0fe2ed00bdc9462
+    name: keycloakx
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/keycloakx-2.3.0/keycloakx-2.3.0.tgz
+    version: 2.3.0
+  openebs:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:32.833155697Z"
+    dependencies:
+    - name: openebs
+      repository: https://openebs.github.io/charts
+      version: 3.10.0
+    description: Wrapper chart for openebs
+    digest: 50dcfcf204d0fd5f652421babe815d95cdb5bae41b81ac6c13143e23b8de6432
+    name: openebs
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/openebs-3.10.0/openebs-3.10.0.tgz
+    version: 3.10.0
+  postgresql:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:32.982393079Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.8
+    description: Wrapper chart for bitnami/postgresql
+    digest: 66b7b3d1077bb029ff78659979d6fc73796f527f1a04cf40d1fedc22896eec37
+    name: postgresql
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/postgresql-11.9.8/postgresql-11.9.8.tgz
+    version: 11.9.8
+  smallstep-accomp:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:33.121752915Z"
+    dependencies:
+    - name: nginx
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.10.4
+    description: Accompanying chart for Smallstep E2EI support
+    digest: 6dbdf8622d54fee5b4ceb26c2efbab77f4a6ffb16bd4f76e976e898799f9b321
+    name: smallstep-accomp
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/smallstep-accomp-6.0.5/smallstep-accomp-6.0.5.tgz
+    version: 6.0.5
+  step-certificates:
+  - apiVersion: v1
+    created: "2024-11-26T08:46:33.225678181Z"
+    dependencies:
+    - name: step-certificates
+      repository: https://smallstep.github.io/helm-charts
+      version: 1.25.0
+    description: Wrapper chart for step-certificates
+    digest: 76cdac6f07570a338091df2da65b705772c0a2c0ccd3cfa3528358063c0cbf37
+    name: step-certificates
+    urls:
+    - https://github.com/supersven/helm-charts/releases/download/step-certificates-1.25.0/step-certificates-1.25.0.tgz
+    version: 1.25.0
+generated: "2024-11-26T08:46:33.225690564Z"
